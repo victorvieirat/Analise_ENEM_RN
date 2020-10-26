@@ -10,7 +10,7 @@ Por **Victor Vieira**
 
 Visto que a previsão da [volta às aulas da rede pública está prevista para depois do ENEM 2020](https://g1.globo.com/rn/rio-grande-do-norte/noticia/2020/10/22/governo-do-rn-preve-retomada-de-aulas-na-rede-estadual-com-ensino-hibrido-a-partir-de-1o-de-fevereiro-de-2021.ghtml) enquanto a [rede particular retornou apenas esse mês](https://g1.globo.com/rn/rio-grande-do-norte/noticia/2020/09/03/governo-do-rn-anuncia-retorno-das-aulas-presenciais-a-partir-de-5-de-outubro.ghtml) (outubro). É notável que uma conexão à internet em casa é crucial para a preparação da prova, já que os estudantes tiveram que passar a maior tempo do ano em casa sem poder sair para estudar em outros locais. O gráfico abaixo mostra a distribuição de alunos com internet em casa.
 
-{% acesso_internet.html %}
+{% include acesso_internet.html %}
 
 Percebe-se que uma parcela muito significativa dos inscritos do ENEM não possuem meios de estudar online em casa.
 
@@ -19,19 +19,19 @@ Apesar do grande número de jovens sem acesso à internet em casa que estão sen
 
 ### Computador
 
-{% computador.html %}
+{% include computador.html %}
 
 ### Celular
 É possível observar que uma boa parte dos incritos com acesso à internet em casa não possuiu nenhum computador para poder estudar, ou seja, estão totalmente dependentes de um celular para se preparar para a prova. Contudo, o celular é um equipamento de uso pessoal e muito mais constante, então é necessário analisar a quantidade pessoas por celular nas casas de quem possui internet mas não computador. O gráfico abaixo mostra a distribuições dessa relação.
 
-{% pessoa_celular.html %}
+{% include pessoa_celular.html %}
 
 Para melhor visualização recomendo selecionar a área de interesse. Uma relação maior que duas pessoas por celular significa que o estudante tem terá que dividir o uso com celular com no mínimo uma pessoa, o que é muito prejudicial nos momentos de estudos.
 
 ## Conclusão
 Agora vamos reunir todos os incritos prejudicados a partir dos critérios já discutidos (acesso à internet, não possuiu computador, muitas pessoas por celulare na casa) e descobrir o que eles possuem em comum.
 
-{% mapa.html %}
+{% include mapa.html %}
 
 A partir do apresentado é possível concluir que os alunos da região intermediária de natal (agreste e parte litoral norte e litoral oriental) são os que estão sendo mais afetados pelas consequências do COVID no seu ano de ENEM. Logo, estas regiões merecem um esforço maior atenção e esforço do Gorveno do Estado do Rio Grande do Norte para garantir uma educação digna à quem mais precisa.
 
